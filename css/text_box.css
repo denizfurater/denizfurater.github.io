@@ -12,10 +12,10 @@
           border-radius: 0.75em;
 
           color: black;
-          background: lightgrey;
+          background: white;
 
           opacity: 0;
           transform: translateY(0.25em);
 
-          transition: opacity 250ms ease-in-out, transform 250ms ease-in-out; // länge und easing der Animationen
+          transition: opacity 250ms ease-in-out, transform 250ms ease-in-out; 
         }
