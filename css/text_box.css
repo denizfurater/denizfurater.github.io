@@ -1,0 +1,21 @@
+.text-container {
+          display: block;
+
+          font-family: sans-serif;
+          font-size: 5vh;
+          line-height: 1em;
+          text-align: center;
+
+          width: 10em;
+          height: 2em;
+          padding: 0.5em;
+          border-radius: 0.75em;
+
+          color: black;
+          background: lightgrey;
+
+          opacity: 0;
+          transform: translateY(0.25em);
+
+          transition: opacity 250ms ease-in-out, transform 250ms ease-in-out; // länge und easing der Animationen
+        }
